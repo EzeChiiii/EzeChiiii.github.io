@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tables</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/default.css'>
+    
+</head>
+<body>
+<header>
+    <div data-include="components/header.html"></div>
+</header>
+<main>
+    <h2>Activity #2 - HTML Tables</h2>
+    <h3>My Tabular Data</h3>
+    <ul>
+        <li>Doris F. Washington dwashington@iimpala.com 3</li>
+        <li>Larry R. Hammond lhammond@iimpala.com 2</li>
+        <li>Hubert F. Reynolds hreynolds@iimpala.com 5</li>
+        <li>Stacy D. Morales smorales@iimpala.com 4</li>
+        <li>Felicia T. Knight fknight@iimpala.com 2</li>
+        <li>Randall B. Dragoo rdragoo@iimpala.com 1</li>
+        <li>Amy S. Perez amyperez@iimpala.com 4</li>
+    </ul>
+    <h3>Employee Data in Simple Table</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Annual Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Doris F. Washington</td>
+                <td>dwashington@iimpala.com</td>
+                <td>$25,000</td>
+            </tr>
+            <tr>
+                <td>Larry R. Hammond</td>
+                <td>lhammond@iimpala.com</td>
+                <td>$32,000</td>
+            </tr>
+            <tr>
+                <td>Hubert F. Reynolds</td>
+                <td>hreynolds@iimpala.com</td>
+                <td>$29,000</td>
+            </tr>
+            <tr>
+                <td>Stacy D. Morales</td>
+                <td>smorales@iimpala.com</td>
+                <td>$25,000</td>
+            </tr>
+            <tr>
+                <td>Felicia T. Knight</td>
+                <td>fknight@iimpala.com</td>
+                <td>$26,000</td>
+            </tr>
+            <tr>
+                <td>Randall B. Dragoo</td>
+                <td>rdragoo@iimpala.com</td>
+                <td>$29,000</td>
+            </tr>
+            <tr>
+                <td>Amy S. Perez</td>
+                <td>amyperez@iimpala.com</td>
+                <td>$34,000</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Employee Data in Complex Table</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Leadership</td>
+                <td>Doris F. Washington</td>
+                <td>dwashington@iimpala.com</td>
+                <td>$25,000</td>
+            </tr>
+            <tr>
+                <td>Larry R. Hammond</td>
+                <td>lhammond@iimpala.com</td>
+                <td>$32,000</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Management</td>
+                <td>Hubert F. Reynolds</td>
+                <td>hreynolds@iimpala.com</td>
+                <td>$29,000</td>
+            </tr>
+            <tr>
+                <td>Stacy D. Morales</td>
+                <td>smorales@iimpala.com</td>
+                <td>$25,000</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Employees</td>
+                <td>Felicia T. Knight</td>
+                <td>fknight@iimpala.com</td>
+                <td>$26,000</td>
+            </tr>
+            <tr>
+                <td>Randall B. Dragoo</td>
+                <td>rdragoo@iimpala.com</td>
+                <td>$29,000</td>
+            </tr>
+            <tr>
+                <td>Amy S. Perez</td>
+                <td>amyperez@iimpala.com</td>
+                <td>$34,000</td>
+            </tr>
+        </tbody>
+    </table>
+</main>
+<footer>
+    <div data-include="components/footer.html"></div>
+</footer>
+<script src="scripts/HTMLInclude.min.js"></script>
+</body>
+</html>

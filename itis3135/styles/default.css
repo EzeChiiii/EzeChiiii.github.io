@@ -16,3 +16,18 @@ ol, li {
 font-style: normal;
 
 }
+
+table, tr, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+
+  padding: 5px;
+}
+
+p {
+
+  font-size: 14px;
+}

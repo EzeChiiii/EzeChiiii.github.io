@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+    <main>
+        <h1>ITIS-3135 - Chibuike Iwu</h1>
+
+        <form action="">
+            <label for="numberOne">Enter #</label><br>
+            <input type="text" id="numberOne" name="numberOne" value="0"><br>
+            <br><label for="numberTwo">Enter 2nd #</label><br>
+            <input type="text" id="numberTwo" name="numberTwo" value="0"><br><br>
+            <input type="button" onclick="division()" value="+" id="add">
+            <input type="button" onclick="division()" value="/" id="divide">
+            
+            <input type="button" onclick="minus()" value="-" id="minus">
+            <input type="button" onclick="multiply()" value="*" id="mulitply">
+            
+
+            <p id="Output"></p>
+            
+            
+
+
+        </form>
+    </main>
+
+    <footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+    <script src="scripts/HTMLInclude.min.js"></script>
+    <script src="scripts/caculatorfirst.js"></script>
+
+</body>
+</html>
